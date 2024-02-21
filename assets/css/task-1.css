@@ -1,0 +1,73 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> */
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin: 42px 0 0 43px;
+}
+
+.outer-container {
+    font-family: "Roboto", sans-serif;
+    width: 917px;
+    height: 165px;
+    display: flex;
+}
+
+.sale-section {
+    width: 649px;
+    padding: 13px;
+}
+
+.header-section {
+    height: 67px;
+}
+
+.sale-header {
+    margin: 0;
+    font-size: 36px;
+    color: rgb(57, 59, 60);
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+}
+
+.info-section span {
+    font-size: 64px;
+    color: rgb(223, 21, 21);
+}
+
+.expiry-date {
+    margin: 0 0 0 23px;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+
+.discount-section {
+    width: 184px;
+    padding: 18px 27px;
+    border: 2px dashed rgb(237, 28, 41); 
+    border-radius: 15px;
+}
+
+.discount-info {
+    text-align: center;
+}
+
+.discount-title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.discount-percentage {
+    margin: -7px 0 0;
+    font-size: 79px;
+    font-weight: 700;
+    color: rgb(237, 28, 41); 
+}
