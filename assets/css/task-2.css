@@ -69,11 +69,22 @@
 }
 
 .soli-line {
-    width: 100px;
     border-bottom: 2px solid rgb(100, 100, 100);
 }
 
 .dotted-line {
-    width: 100px;
+    flex-grow: 1;
     border-bottom: 2px dotted rgb(169, 169, 169);
+}
+
+.width-36 {
+    width: 36%;
+}
+
+.width-34 {
+    width: 34%;
+}
+
+.width-72 {
+    width: 72%;
 }
