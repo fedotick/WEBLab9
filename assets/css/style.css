@@ -1,0 +1,117 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 84px;
+    background-color: black;
+}
+
+.content {
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content.center {
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.tasks {
+    width: 1130px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-1 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: calc(100% - 40px);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.1s ease-in-out;
+}
+
+.button-1:hover {
+    height: calc(100% - 45px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 5px solid rgb(255, 6, 125);
+}
+
+.button-1.active {
+    color: rgb(255, 6, 125);
+    height: calc(100% - 45px);
+}
+
+.buttons {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.button-2 {
+    font-family: "Roboto", sans-serif;
+    padding: 15px 70px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 25px;
+    transition: all 0.1s ease-in-out;
+}
+
+.button-2:hover {
+    font-weight: 600;
+    color: rgb(255, 6, 125);
+    box-shadow: inset 0 0 0 3px rgb(255, 6, 125);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links img {
+    width: 32px;
+    margin: 0 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.links img:hover {
+    scale: 1.25;
+}
+
+.mrg-t-84 {
+    margin-top: 84px;
+}
