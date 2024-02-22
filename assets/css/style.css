@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background: radial-gradient(circle, rgb(238, 238, 238), rgb(222, 222, 222));
 }
 
 header {
